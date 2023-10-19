@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+
+body {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	background: #000;
+	color: #ffffff;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.artistName {
+	padding-top: 2vw;
+	display: flex;
+	justify-content: center;
+	font-size: 45px;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: bold;
+	color: #fd6325;
+}
+
+.portContainer1 {
+	padding-bottom: 75px;
+  display: flex;
+	justify-content: space-evenly;
+}
+
+.navBox {
+	display: flex;
+	justify-content: center;
+	padding: 50px 30px;
+
+}
+
+.navMenu {
+	display : flex;
+	justify-content: space-between;
+	width: 80vmin;
+	font-size: 30px;
+	font-family: 'Questrial', sans-serif;
+	font-weight: bold;
+}
+
+a, a:visited, a:active {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:hover {
+	color: #ff0072;
+}
+
+.heaDer {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	font-size: 12vmin;
+	font-family: 'Bebas Neue', sans-serif;
+	letter-spacing: 5px;
+	background-color: #ff1023;
+	height: 60vh;
+	background-image: url('https://static.dezeen.com/uploads/2018/10/walt-disney-hall-frank-gehry-projection-la-phil-refik-anadol_dezeen_2364_col_0.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+
+.portContainer {
+	padding-top: 75px;
+	padding-bottom: 75px;
+  display: flex;
+	justify-content: space-evenly;
+}
+
+.portImg {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.portImg img {
+  	width: 100%;
+  	height: 200px;
+  	border-radius: 5%;
+}
+
+.nameTag {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background: rgba(0,0,0,0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.nameTag {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Questrial', sans-serif;
+}
+
+.portImg:hover .nameTag {
+	opacity: 1;
+}
+
+.introPart {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 8vmin;
+	font-family: 'Bebas Neue', sans-serif;
+	letter-spacing: 2px;
+	background-color: #ff1023;
+	height: 45vh;
+	background-image: url('https://rmjm.com/wp-content/uploads/2021/12/web_08-scaled.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.artName1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 8vmin;
+	font-family: 'Bebas Neue', sans-serif;
+	letter-spacing: 5px;
+	background-color: #ff1023;
+	height: 45vh;
+	background-image: url('https://img.redbull.com/images/c_crop,x_0,y_8,h_1148,w_2552/c_fill,w_1920,h_864/q_auto,f_auto/redbullcom/2019/07/30/e159898e-aadf-4d75-b2b2-4ccc3fea1d3a/brian-tyler');
+	background-size: cover;
+	background-position: center;
+}
+
+.headPhoto {
+	display: flex;
+
+}
+
+.headPhoto img{
+	width: 180px;
+  	margin: 5px;
+}
+
+.descripContainer {
+	padding-top: 2vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+	font-family: 'Manrope', sans-serif;
+	flex-direction: column;
+}
+
+
+.bio1 {
+	font-size: 45px;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: bold;
+	color: #fd6325;
+}
+
+.quotes {
+	font-size: 30px;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	font-style: italic;
+	display: flex;
+	justify-content: center;
+	font-family: 'PT Serif', serif;
+	padding-bottom: 2vw;
+}
+
+.bio2 {
+	font-size: 25px;
+	line-height: 50px;
+	padding-bottom: 1vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+.bio3 {
+	font-size: 25px;
+	line-height: 25px;
+	padding-bottom: 2vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+.movContainer{
+	padding-bottom: 5vw;
+}
+.movPhoto {
+	display: flex;
+	justify-content: center;
+}
+.movPhoto img{
+  	width: 180px;
+  	margin: 5px;
+}
+
+.videoContainer{
+	padding-top: 2vw;
+	padding-left: 10vw;
+ 	padding-right: 10vw;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+	padding-bottom: 2vw;
+
+}
+
+.videoPhoto {
+	display: flex;
+
+}
+
+.videoPhoto img{
+  	width: 180px;
+  	margin: 5px;
+}
+
+.artName2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 8vmin;
+	font-family: 'Bebas Neue', sans-serif;
+	letter-spacing: 5px;
+	background-color: #ff1023;
+	height: 45vh;
+	background-image: url('https://static01.nyt.com/images/2019/11/12/arts/11ludwig1-promo/11ludwig1-promo-videoSixteenByNineJumbo1600-v2.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.artName3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 8vmin;
+	font-family: 'Bebas Neue', sans-serif;
+	letter-spacing: 5px;
+	background-color: #ff1023;
+	height: 45vh;
+	background-image: url('https://www.hollywoodreporter.com/wp-content/uploads/2018/02/hans_zimmer.jpg?w=1296&h=730&crop=1');
+	background-size: cover;
+	background-position: center;
+}
+
+.artName4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 8vmin;
+	font-family: 'Bebas Neue', sans-serif;
+	letter-spacing: 5px;
+	background-color: #ff1023;
+	height: 45vh;
+	background-image: url('https://flwright.org/sites/default/files/styles/slideshow_block/public/2023-04/homepage_slide_hs_facade2.jpg?itok=NH8zb3gi');
+	background-size: cover;
+	background-position: center;
+}
+
+.artName5 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 8vmin;
+	font-family: 'Bebas Neue', sans-serif;
+	letter-spacing: 5px;
+	background-color: #ff1023;
+	height: 45vh;
+	background-image: url('https://architizer-prod.imgix.net/media/1462911297087guggenheim.jpg?fit=max&w=1140&q=60&auto=format&auto=compress&cs=strip&h=569');
+	background-size: cover;
+	background-position: center;
+}
+
+.houseDescri {
+	font-size: 25px;
+	line-height: 25px;
+	padding-bottom: 2vw;
+	padding-left: 10vw;
+	padding-right: 10vw;
+
+}
+
+.buildingPhoto {
+	display: flex;
+	justify-content: center;
+}
+
+.buildingPhoto img {
+	height: 100%;
+  	width: 650px;
+  	margin: 5px;
+  	border-radius: 3%;
+  	margin-bottom: 25px;
+}
+
+.sketchPhoto {
+	display: flex;
+	justify-content: center;
+}
+
+.sketchPhoto img {
+	height: 100%;
+  	width: 650px;
+  	margin: 5px;
+  	border-radius: 3%;
+  	margin-bottom: 50px;
+}
+
+.FbuildingName {
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: #25c0fd;
+	margin-bottom: 38px;
+}
+.buildingName {
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: #25c0fd;
+}
+
+.sketchName {
+	display: flex;
+	justify-content: center;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.longSen {
+	line-height: 30px;
+}
+
+
+.sketchContainer1 {
+  display: flex;
+	justify-content: space-evenly;
+	padding-top: 1vw;
+	padding-bottom: 2vw;
+
+}
+
+.sketchPhoto1 {
+	position: relative;
+	display: flex;
+	align-items: center;
+
+}
+.sketchPhoto1 img {
+  width: 100%;
+  height: 200px;
+  border-radius: 5%;
+}
+
+.nameTag1 {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background: rgba(0,0,0,0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.nameTag1 {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Questrial', sans-serif;
+}
+
+.sketchPhoto1:hover .nameTag1 {
+	opacity: 1;
+}
+
+.highLi1 {
+	color: #25c0fd;
+}
+
+
