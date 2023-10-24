@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
 
 body {
@@ -19,12 +21,11 @@ body {
 }
 
 .artistName {
-	padding-top: 2vw;
 	display: flex;
 	justify-content: center;
 	font-size: 45px;
 	font-family: 'Barlow Condensed', sans-serif;
-	font-weight: bold;
+	font-weight: 600;
 	color: #fd6325;
 }
 
@@ -43,7 +44,7 @@ body {
 
 .navMenu {
 	display : flex;
-	justify-content: space-between;
+	justify-content: center;
 	width: 80vmin;
 	font-size: 30px;
 	font-family: 'Questrial', sans-serif;
@@ -167,7 +168,7 @@ a:hover {
 .bio1 {
 	font-size: 45px;
 	font-family: 'Barlow Condensed', sans-serif;
-	font-weight: bold;
+	font-weight: 600;
 	color: #fd6325;
 }
 
@@ -396,6 +397,10 @@ a:hover {
 
 .highLi1 {
 	color: #ff0072;
+}
+
+.bioBold {
+	font-weight: 900;
 }
 
 
